@@ -1,27 +1,45 @@
-# Econometric Analysis of Commodity and Stock Market Returns (2024)
+# 📈 Econometric Analysis of Commodity Influence on Stock Indices (2024)
 
-This project analyzes the influence of Gold and Oil returns on major U.S. stock indices (S&P 500 and NASDAQ) using econometric modeling techniques.
+This project explores how commodity returns — specifically Gold and Oil — affect the behavior of major U.S. stock indices: the S&P 500 and NASDAQ during 2024.  
+Through rigorous econometric modeling, we quantify and interpret the dynamic relationships between global commodities and financial markets in a year marked by high volatility.
 
-## Project Contents
+---
 
-- **Word Report**: Full academic analysis report prepared for Econometrics course.
-- **Jupyter Notebook**: Complete Python code for data cleaning, exploratory analysis, modeling, and assumption testing.
-- **Datasets**: 
-  - Raw financial data (daily prices, 2024)
-  - Cleaned return data for modeling
-- **Plots**: Visualizations (histograms, boxplots, time series, correlation heatmap).
+## 📊 Project Overview
 
-## Econometric Models
+- **Objective**:  
+  Analyze the impact of Gold and Oil daily returns on the returns of S&P 500 and NASDAQ indices.
 
-- OLS regression models to evaluate the impact of Gold and Oil returns on stock indices.
-- Model assumptions tested (Linearity, Homoskedasticity, Normality).
+- **Methodology**:  
+  - Data cleaning and preparation (daily closing prices for 2024).
+  - Return calculation and exploratory data analysis.
+  - Ordinary Least Squares (OLS) regression modeling.
+  - Full diagnostic testing: Linearity, Homoskedasticity, Normality of residuals.
+  - Interpretation of model coefficients and statistical significance.
 
-## Tools Used
+- **Deliverables**:  
+  - 📄 Academic Word Report (APA style)
+  - 🐍 Python Jupyter Notebook (full modeling code)
+  - 📈 Visualizations (histograms, boxplots, time series, correlation heatmaps)
+  - 🗂️ Cleaned datasets (.xlsx and .csv formats)
 
-- Python (Pandas, Statsmodels, Matplotlib, Seaborn)
-- Microsoft Word
-- Excel
+---
 
-## Author
+## 📂 Project Structure
 
-Mariem Briki
+```bash
+├── datasets/
+│   ├── financial_data_2024_clean.xlsx
+│   └── financial_data_2024_raw.csv
+├── notebooks/
+│   └── financial_data_modeling.ipynb
+├── reports/
+│   ├── Econometrics_project_report.docx
+│   └── Econometrics_project_report.pdf
+├── figures/
+│   ├── timeseries.png
+│   ├── boxplots.png
+│   ├── histograms.png
+│   └── correlation_heatmap.png
+└── README.md
+
